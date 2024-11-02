@@ -28,7 +28,7 @@ async def embed_send(current, new):
   channel = client.get_channel(int(os.getenv("CHANNEL_ID")))
   embed = discord.Embed(
     title='Dragon Nest Sea',
-    description=f"**Game** has been patched from {current} to {new}.",
+    description=f"**Game** has been patched from Version {current} to Version {new}.",
     color=discord.Color(random.randint(0, 0xFFFFFF))
   )
   embed.set_image(url="https://static.wikia.nocookie.net/dragonnest_gamepedia/images/f/f0/Album_Image_001.png")
