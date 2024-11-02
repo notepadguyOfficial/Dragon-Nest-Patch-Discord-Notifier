@@ -19,7 +19,7 @@ async def loop():
 
     if patch.current != patch.new:
       await embed_send(patch.current, patch.new)
-      patch.UpdatePatchVersion()
+      patch.UpdatePatchVersion(patch.new)
 
     await asyncio.sleep(10)
 
