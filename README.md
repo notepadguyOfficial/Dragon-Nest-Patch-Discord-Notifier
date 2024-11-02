@@ -1,0 +1,1 @@
+# Dragon-Nest-Patch-Discord-Notifier
