@@ -9,7 +9,7 @@ This is a simple Discord bot designed to track and announce patch updates for th
 
 **Project Structure**
 - `main.py`: Contains the main bot code, including update checks and Discord channel message handling.
-- `update.pyv: Manages patch version fetching, storage, and parsing.
+- `update.py`: Manages patch version fetching, storage, and parsing.
 - `PatchVersionInfo.cfg`: Stores the current patch version number to compare against the latest version.
 
 **Requirements**
