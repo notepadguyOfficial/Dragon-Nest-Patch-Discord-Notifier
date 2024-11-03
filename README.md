@@ -19,14 +19,14 @@ This is a simple Discord bot designed to track and announce patch updates for th
 ## Setup
 
 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/yourproject.git
-cd yourproject
+```console
+server@admin:~$ git clone https://github.com/yourusername/yourproject.git
+server@admin:~$ cd yourproject
 ```
 
 2. Install the required Python packages:
-```bash
-pip install discord.py requests
+```console
+server@admin:~$ pip install discord.py requests
 ```
 
 3. Set up environment variables:
@@ -45,8 +45,8 @@ CHANNEL_ID=your_discord_channel_id_here
 # URL to check for the latest Dragon Nest SEA patch version
 URL=https://example.com/patch/version/PatchInfoServer.cfg
 ```
-```bash
-pip install python-dotenv
+```console
+server@admin:~$ pip install python-dotenv
 ```
 
 4. Create the `PatchVersionInfo.cfg` file in the project directory if not present, and add:
@@ -55,8 +55,8 @@ version 1100
 ```
 
 5. Run the bot:
-```bash
-python main.py
+```console
+server@admin:~$ python main.py
 ```
 ## Usage
 
