@@ -1,7 +1,9 @@
 import requests
 import re
 import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 class Patch():
     def __init__(self):
