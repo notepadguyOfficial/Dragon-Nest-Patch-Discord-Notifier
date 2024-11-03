@@ -1,5 +1,6 @@
 import discord
 import os
+from dotenv import load_dotenv
 from discord.ext import commands
 from update import Patch
 import asyncio
@@ -10,7 +11,7 @@ intents.message_content = True
 patch = Patch()
 
 client = commands.Bot(command_prefix='!', self_bot=True, help_command=None, intents=intents)
-
+load_dotenv()
 
 async def loop():
   while True:
